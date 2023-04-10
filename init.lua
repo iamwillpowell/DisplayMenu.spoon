@@ -36,7 +36,7 @@ function obj.setRight(mods, item)
   screen:setOrigin(2000,400)
   hs.notify.new({title="Hammerspoon", informativeText=tostring('Moved second display to right')}):send()
 end
-`
+
 function obj.setLeft(mods, item)
   local screen = hs.screen.primaryScreen():next()
   -- setMode: w, h, scale, freq, depth

@@ -33,7 +33,7 @@ function obj.setRight(mods, item)
   -- print(hs.inspect.inspect(hs.screen:screenPositions()))
   -- setMode: w, h, scale, freq, depth
   screen:setMode(1536, 960, 2.0, 59.0, 8.0)
-  screen:setOrigin(2000,400)
+  screen:setOrigin(2000,200)
   hs.notify.new({title="Hammerspoon", informativeText=tostring('Moved second display to right')}):send()
 end
 

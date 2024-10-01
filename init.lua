@@ -44,7 +44,7 @@ function obj.setRight(mods, item)
   obj.menubarItem:setMenu(obj.getMenuItems())
 end
 
-function obj.setLeft(mods, item)
+function obj.setBottom(mods, item)
   local screen = hs.screen.primaryScreen():next()
   printDebug();
   -- setMode: w, h, scale, freq, depth
